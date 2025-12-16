@@ -1,0 +1,35 @@
+
+@media (max-width: 768px) {
+  .product-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ================= CONTACT SECTION ================= */
+@media screen and (max-width: 600px) {
+  .contact-section {
+    padding: 30px 15px;
+  }
+
+  .contact-section .section-title {
+    font-size: 1.6rem;
+  }
+}
+
+/* Responsive Footer */
+@media screen and (max-width: 600px) {
+  .site-footer {
+    padding: 15px 10px;
+    font-size: 0.85rem;
+  }
+
+  .footer-content h3 {
+    font-size: 1rem;
+  }
+
+  .footer-social a {
+    font-size: 0.9rem;
+    margin: 0 6px;
+  }
+}

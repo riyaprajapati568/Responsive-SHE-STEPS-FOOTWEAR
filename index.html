@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SHE STEPS | Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">
+    👠 <span>SHE STEPS</span>
+  </div>
+
+  <nav class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="nav-actions">
+    <button id="darkToggle">🌙</button>
+    <div class="cart">🛒 <span id="cartCount">0</span></div>
+  </div>
+</header>
+
+
+<!-- ================= BANNER ================= -->
+
+<!--<section class="shop-banner">
+  <img src="images/bgs.webp" alt="She Steps Collection">
+</section>-->
+<div class="banner">
+<div class="banner-text">
+  <h1>Discover Your Perfect Pair</h1>
+  <p>Step into style and comfort with our exclusive </p>
+  <p>collection of women's footwear.</p>
+</div>
+</div>
+<!-- ================= PRODUCT FILTER & LISTING ================= -->
+<section class="filter-bar">
+  <div class="filter-left">
+    <select>
+      <option>Filter by</option>
+      <option>Heels</option>
+      <option>Flats</option>
+      <option>Sandals</option>
+    </select>
+
+    <select>
+      <option>Size</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+    </select>
+  </div>
+
+  <div class="filter-right">
+    <select>
+      <option>Sort by</option>
+      <option>Newest</option>
+      <option>Price: Low to High</option>
+      <option>Price: High to Low</option>
+    </select>
+  </div>
+</section>
+
+<!-- ================= PRODUCT GRID ================= -->
+<section class="product-section">
+  <h2 class="section-title">Special Editions</h2>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <span class="wishlist">❤</span>
+      <img src="images/blackflats.avif">
+      <h4>Classic Black Flats</h4>
+      <p class="price">₹1,599</p>
+      <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <span class="wishlist">❤</span>
+      <img src="images/redpartyheels.jpg">
+      <h4>Red Party Heels</h4>
+      <p class="price">₹1,999</p>
+      <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <span class="wishlist">❤</span>
+      <img src="images/balletflats.webp">
+      <h4>Nude Ballet Flats</h4>
+      <p class="price">₹1,299</p>
+      <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <span class="wishlist">❤</span>
+      <img src="images/pinkflats.jpg">
+      <h4>Pink Casual Flats</h4>
+      <p class="price">₹1,199</p>
+      <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <span class="wishlist">❤</span>
+      <img src="images/s1.jpg">
+      <h4>Classic Heels</h4>
+      <p class="price">₹1,599</p>
+      <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <span class="wishlist">❤</span>
+      <img src="images/S5.jpg">
+      <h4>White Heels</h4>
+      <p class="price">₹1,499</p>
+      <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <span class="wishlist">❤</span>
+      <img src="images/S3.jpg">
+      <h4>Pink Pencil Heel</h4>
+      <p class="price">₹1,750</p>
+      <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <span class="wishlist">❤</span>
+      <img src="images/S4.jpg">
+      <h4>Lathered Heels</h4>
+      <p class="price">₹1,899</p>
+      <button class="add-cart">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PRODUCT DETAILS ================= -->
+<section class="product-page">
+
+  <div class="product-wrapper">
+
+    <!-- LEFT: IMAGES -->
+    <div class="product-images">
+      <img id="mainImage" src="images/F1.jpg">
+
+      <div class="thumbs">
+        <img src="images/f2.jpg" onclick="changeImage(this)">
+        <img src="images/F3.jpg" onclick="changeImage(this)">
+        <img src="images/F4.jpg" onclick="changeImage(this)">
+      </div>
+    </div>
+
+    <!-- RIGHT: DETAILS -->
+    <div class="product-info">
+      <h2>Classic Black Transprate Heels</h2>
+      <p class="price">₹1,999 <span>₹2,899</span></p>
+
+      <p class="description">
+        Transprate Black heels designed for comfort and style.
+        Perfect for parties, weddings, and special occasions.
+      </p>
+
+      <!-- SIZE -->
+      <div class="sizes">
+        <span>Select Size</span>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+      </div>
+
+      <!-- ACTIONS -->
+      <div class="actions">
+        <button class="add-cart">Add to Cart</button>
+        <button class="wishlist-btn">❤ Wishlist</button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="about-section">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About SHE STEPS</h2>
+      <p>
+        SHE STEPS is a modern women footwear brand designed for comfort,
+        elegance, and confidence. From everyday flats to premium heels,
+        our collection is crafted to match your every step.
+      </p>
+      <p>
+        We believe footwear should be stylish, durable, and affordable.
+      </p>
+    </div>
+
+    <!--<div class="about-image">
+      <img src="images/BG1.jpg" alt="About She Steps">
+    </div>-->
+  </div>
+</section>
+
+
+<!-- ================= REVIEWS ================= -->
+<section class="review-section">
+  <h2 class="section-title">What Our Customers Say</h2>
+
+  <div class="review-grid">
+
+    <div class="review-card">
+      <p>⭐⭐⭐⭐⭐</p>
+      <h4>Riya P.</h4>
+      <p>Very comfortable and stylish! Loved the quality.</p>
+    </div>
+
+    <div class="review-card">
+      <p>⭐⭐⭐⭐⭐</p>
+      <h4>Ananya S.</h4>
+      <p>Perfect fit and fast delivery. Highly recommended.</p>
+    </div>
+
+    <div class="review-card">
+      <p>⭐⭐⭐⭐</p>
+      <h4>Meera K.</h4>
+      <p>Looks premium and feels amazing to wear.</p>
+    </div>
+
+  </div>
+
+</section>
+<!-- ================= CONTACT FORM ================= -->
+<section class="contact-section">
+  <h2 class="section-title">Contact Us</h2>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <textarea placeholder="Your Message" rows="4"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <h3>👠 SHE STEPS</h3>
+    <p>Premium Women Footwear for Every Occasion</p>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-pinterest-p"></i></a>
+    </div>
+    <p>© 2025 SHE STEPS. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- Font Awesome CDN for Social Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<script src="JS/script.js"></script>
+</body>
+</html>
